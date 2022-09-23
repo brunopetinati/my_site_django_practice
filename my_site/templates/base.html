@@ -13,7 +13,7 @@
 <body>
   <header>
     <h1><a href="{% static 'blog/images/bruno.jpeg' %}">Bruno's Blog</a></h1>
-    <nav><a href="">All Posts</a></nav>
+    <nav><a href="{% url "starting-page" %}">All Posts</a></nav>
   </header>
   {% block content %}
   {% endblock %}
