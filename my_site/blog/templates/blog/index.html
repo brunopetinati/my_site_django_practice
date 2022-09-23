@@ -11,13 +11,13 @@
 
 {% block content %}
   <header>
-    <h1><a href="">Bruno's Blog</a></h1>
+    <h1><a href="{% static 'blog/images/bruno.jpeg' %}">Bruno's Blog</a></h1>
     <nav><a href="">All Posts</a></nav>
   </header>
   
   <section id="welcome">
     <header id="main-navigation">
-      <img src="" alt="Bruno - The Author Of This Blog">
+      <img src={% static 'blog/images/mountains.jpg' %}"" alt="Bruno - The Author Of This Blog">
       <h2>My blog</h2>
     </header>
     <p>Hi, I am Bruno and I love to blog about tech and the world!</p>
